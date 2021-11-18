@@ -125,3 +125,31 @@ input#celular {
     background: #364a73;
 
 }
+
+@media (max-width:768px) {
+    input#nome {
+        width: auto;
+    }
+
+}
+
+@media (max-width:768px) {
+    input#email {
+        width: auto;
+    }
+
+}
+
+@media (max-width:768px) {
+    input#celular {
+        width: auto;
+    }
+
+}
+
+@media (max-width:425px) {
+    .escolha input {
+        margin: 10px 0px;
+    }
+
+}
