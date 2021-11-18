@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to right, #0a1e59,#364a73);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+form {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+#titulo {
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #f2f2f2;
+    margin-top: 8%;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
+
+    
+}
+
+.escolha input {
+    color: #f2f2f2;
+    background-color: #0a1e59;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    padding: 0.3em;
+    cursor: pointer;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
+   
+
+}
+
+.escolha input:hover {
+    background: #21346b;
+    
+}
+
+.dado1 {
+    color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
+    
+    
+}
+
+.dado2 {
+    color: #f2f2f2;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3em;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
+    
+    
+}
+
+input#nome{
+    padding: 10px;
+    width: 20%;
+    border-radius: 8px;
+    outline: none;
+    background: #f2f2f2;
+    
+}
+input#email {
+    padding: 10px;
+    width:20%;
+    border-radius: 8px;
+    outline: none;
+    background: #f2f2f2;
+   
+}
+
+input#celular {
+    padding: 10px;
+    width:20%;
+    border-radius: 8px;
+    outline: none;
+    background: #f2f2f2;
+    
+}
+
+ 
+.botao button {
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
+    cursor: pointer;
+    color: #f2f2f2;
+    background: #0a1e59;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    transition: all 0.3s ease;
+    
+}
+
+.botao button:hover {
+    background: #364a73;
+
+}
