@@ -15,7 +15,7 @@ body {
     justify-content: center;
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
+   
 
 }
 
@@ -23,6 +23,7 @@ form {
     text-align: center;
     align-items: center;
     justify-content: center;
+    
     
 
     
