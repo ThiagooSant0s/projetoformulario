@@ -23,6 +23,7 @@ form {
     text-align: center;
     align-items: center;
     justify-content: center;
+    
 
     
 
@@ -49,9 +50,10 @@ form {
     font-size: 2rem;
     padding: 0.3em;
     cursor: pointer;
-    margin: 0 20px;
     transition: all 0.3s ease;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
+   
+    
    
 
 }
@@ -68,6 +70,7 @@ form {
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
     
     
+    
 }
 
 .dado2 {
@@ -75,6 +78,7 @@ form {
     font-family: "Poppins", sans-serif;
     font-size: 1.3em;
     text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.788);
+    
     
     
 }
@@ -86,6 +90,7 @@ input#nome{
     outline: none;
     background: #f2f2f2;
     
+    
 }
 input#email {
     padding: 10px;
@@ -93,6 +98,7 @@ input#email {
     border-radius: 8px;
     outline: none;
     background: #f2f2f2;
+   
    
 }
 
@@ -102,6 +108,7 @@ input#celular {
     border-radius: 8px;
     outline: none;
     background: #f2f2f2;
+    
     
 }
 
@@ -119,6 +126,7 @@ input#celular {
     padding: 8px;
     transition: all 0.3s ease;
     
+    
 }
 
 .botao button:hover {
@@ -127,29 +135,42 @@ input#celular {
 }
 
 @media (max-width:768px) {
-    input#nome {
-        width: auto;
+    input#nome, input#email, input#celular {
+        width: 35%;
     }
 
 }
 
-@media (max-width:768px) {
-    input#email {
-        width: auto;
+@media (max-width:425px){
+    input#nome, input#email, input#celular{
+        width: 65%;
     }
-
 }
 
-@media (max-width:768px) {
-    input#celular {
-        width: auto;
-    }
 
-}
-
-@media (max-width:425px) {
+@media (max-width:425px){
     .escolha input {
         margin: 10px 0px;
+        
+    }
+}
+
+@media (max-width:375px) {
+    .escolha input {
+        margin: 10px 0px;
+        
+
     }
 
+}
+@media (max-width:375px){
+    input#nome, input#email, input#celular {
+        width: 65%;
+    }
+}
+
+@media (max-width:320px){
+    input#nome, input#email, input#celular {
+        width: 65%;
+    }
 }
