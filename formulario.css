@@ -39,7 +39,9 @@ form {
     
 }
 
-.escolha input {
+    /* Botões de escolha*/
+
+.escolha input {       
     color: #f2f2f2;
     background-color: #0a1e59;
     outline: none;
@@ -56,11 +58,14 @@ form {
    
 
 }
+/* Efeito nos botões de escolha*/
 
 .escolha input:hover {
     background: #21346b;
     
 }
+
+/* Primeiro espaço pro nome */
 
 .dado1 {
     color: #f2f2f2;
@@ -72,6 +77,8 @@ form {
     
 }
 
+/* Espaço para email e celular */
+
 .dado2 {
     color: #f2f2f2;
     font-family: "Poppins", sans-serif;
@@ -82,6 +89,8 @@ form {
     
 }
 
+/* input do nome  */
+
 input#nome{
     padding: 10px;
     width: 20%;
@@ -91,6 +100,9 @@ input#nome{
     
     
 }
+
+/* input do email  */
+
 input#email {
     padding: 10px;
     width:20%;
@@ -100,6 +112,8 @@ input#email {
    
    
 }
+
+/* input do celular  */
 
 input#celular {
     padding: 10px;
@@ -111,7 +125,8 @@ input#celular {
     
 }
 
- 
+/* botão de cadastro  */ 
+
 .botao button {
     font-family: "Poppins",sans-serif;
     font-size: 1.5rem;
@@ -128,10 +143,14 @@ input#celular {
     
 }
 
+/* efeit no botão de cadastro  */
+
 .botao button:hover {
     background: #364a73;
 
-}
+} 
+
+/* @media são configurações para diferentes tamanhos de tela   */
 
 @media (max-width:768px) {
     input#nome, input#email, input#celular {
@@ -174,6 +193,7 @@ input#celular {
     }
 }
 
+
 footer {
     color: #f2f2f2;
     margin: 40px 0px;
@@ -182,6 +202,8 @@ footer {
 
 
 }
+
+/* Cor do nome (link) destacado no rodapé */
 
 footer a {
     color: #4e628b;
