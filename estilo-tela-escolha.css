@@ -37,12 +37,15 @@ div{
      border: none;
      cursor: pointer;
      width: 100%;
+     background-color: #0A1E59;
+     color: #f2f2f2;
     
  }
 
  input.botao:hover {
-    background-color: rgba(0, 0, 0,0.5);
-    color: #f2f2f2;
+    background-color:#364A73;
+    
+
 
  }
 
